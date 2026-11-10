@@ -1,0 +1,13 @@
+# 虚拟环境
+.venv/
+venv/
+
+# 密钥文件（最重要的一行）
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 编辑器
+.vscode/
