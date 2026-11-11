@@ -22,17 +22,24 @@ python --version
 - [x] 虚拟环境 `.venv`
 - [x] `openai` + `python-dotenv`
 - [x] `.env` 配好 DeepSeek key
-- [x] `hello.py` 写好，**待跑通**
-- [ ] Day1-B：三参数 + 循环 + 三个坑
-- [ ] Day1-C：argparse 封装 + git init + 第一次 commit
+- [x] `hello.py` 跑通（30 token）
+- [x] Day1-B：三参数 + 对话循环 `chat.py` + 超时与计费
+- [x] Day1-C：argparse 封装 `ask.py` + git 提交 + 推送到 GitHub
+- [x] Day1 硬指标完成：`2026-11-10`
 
-## 下一步
+远程仓库：https://github.com/Folie1314/ask-cli
 
-```powershell
-python hello.py
-```
+## 文件说明
 
-预期：输出一段自我介绍 + `本次消耗 token：xx`。
+| 文件 | 用途 |
+|---|---|
+| `hello.py` | 最小验证脚本，跑通即止 |
+| `chat.py` | 交互式多轮对话，带历史记忆 |
+| `ask.py` | 命令行工具 `python ask.py "问题" [-t 0]` |
+
+## 下一步（Day2）
+
+Prompt 四种写法 + JSON 结构化输出 + 20 次稳定性测试。
 
 ## 常用
 
